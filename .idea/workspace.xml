@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bafe1d8f-54f3-4be1-915d-82f49dd52bec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/01-TrappeUA-Toxvaerd_Mix/modelTrappKara_residues_noH_replicate_converted.input" beforeDir="false" afterPath="$PROJECT_DIR$/examples/01-TrappeUA-Toxvaerd_Mix/modelTrappKara_residues_noH_replicate_converted.input" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/01-TrappeUA-Toxvaerd_Mix/modelTrappKara_residues_noH_replicate_converted.lmp" beforeDir="false" afterPath="$PROJECT_DIR$/examples/01-TrappeUA-Toxvaerd_Mix/modelTrappKara_residues_noH_replicate_converted.lmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/intermol/lammps/lammps_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/intermol/lammps/lammps_parser.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,6 +85,9 @@
       <option name="presentableId" value="Default" />
       <updated>1655207973507</updated>
       <workItem from="1655207974689" duration="3573000" />
+      <workItem from="1655223997589" duration="32000" />
+      <workItem from="1655225586201" duration="528000" />
+      <workItem from="1655226131170" duration="35000" />
     </task>
     <servers />
   </component>
@@ -162,7 +163,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/intermol/lammps/lammps_parser.py</url>
-          <line>941</line>
+          <line>947</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>

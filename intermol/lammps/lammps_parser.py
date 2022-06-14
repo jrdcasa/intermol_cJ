@@ -929,14 +929,20 @@ class LammpsParser(object):
                 # TODO: Check by content would be nice but may lead to the
                 # equality issues again.
                 if temp_force_type not in numeric_coeff:
-                    # Get the numerical type for this interaction.
-                    numeric_coeff[temp_force_type] = type_count
-                    line = '{0:d} {1}'.format(type_count, style)
-                    type_count += 1
 
+                    # cJ nharmonic
                     # Generate the list of parameters for this force in the
                     # order they appear in the file format.
                     params = self.get_parameter_list_from_force(temp_force_type)
+
+                    # Get the numerical type for this interaction.
+                    numeric_coeff[temp_force_type] = type_count
+                    if style == "nharmonic":
+                        line = '{0:d} {1} {2:d}'.format(type_count, style, len(params))
+                    else:
+                        line = '{0:d} {1}'.format(type_count, style)
+                    type_count += 1
+                    # END cJ nharmonic
 
                     # Generate the units for this force.
                     u = self.unitvars[force_type.__name__]
