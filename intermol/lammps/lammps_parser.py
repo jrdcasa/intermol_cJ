@@ -219,6 +219,27 @@ class LammpsParser(object):
             #cJ multiple proper dihedrals
             elif dihedral_class == ProperMultipleDihedral:
                 typename = "nharmonic"
+                # Convert from gromacs coefficients to lammps coefficients
+                fcs = dict()
+                k0 = params['k0']
+                k1 = params['k1']
+                k2 = params['k2']
+                k3 = params['k3']
+                k4 = params['k4']
+                k5 = params['k5']
+                k6 = params['k6']
+                k7 = params['k7']
+                k8 = params['k8']
+
+                params['k0'] = 2. * k0 + k1 + k3 + 2. * k4 + k5 + k7 + 2. * k8
+                params['k1'] = -k1 + 3. * k3 - 5. * k5 + 7. * k7
+                params['k2'] = 2.* k2 - 8. * k4 + 18. * k6 - 32. * k8
+                params['k3'] = -4. * k3 + 20. * k5 - 56. * k7
+                params['k4'] = 8. * k4 - 48. * k6 + 160. * k8
+                params['k5'] = -16. * k5 + 112. * k7
+                params['k6'] = 32. * k6 - 256. * k8
+                params['k7'] = -64. * k7
+                params['k8'] = 128. * k8
                 paramlist = [params]
             else:
                 raise UnsupportedFunctional(dihedral, ENGINE)
