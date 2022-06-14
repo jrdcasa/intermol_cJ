@@ -1,0 +1,99 @@
+;
+;   File modelTrappKara_residues_noH.top  was generated
+;   By user: jramos (1001)
+;   On host: totem2
+;   At date: Mon. June  1 14:21:58 2022
+;
+;   This is a standalone topology file
+;
+;   Created by:
+;   ParmEd:       replicate_polymer.py, VERSION 3.4.3
+;   Executable:   replicate_polymer.py
+;   Library dir:  /usr/local/gromacs/share/gromacs/top
+;   Command line:
+;     /home/jramos/Programacion/GITHUB_REPO_DIR/replicate_polymer_topology/replicate_polymer/replicate_polymer.py -p modelTrappKara_residues.pdb -f ../../../replicate_polymer_topology/forcefields/trappe-ua_PEToxvaerd.xml --images 1 1 1 --verbose -e lammps --noh --verbose
+;
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               2               yes             1            1           
+
+[ atomtypes ]
+; name    at.num    mass    charge ptype  sigma      epsilon
+CH3_sp3        0  15.035000  0.00000000  A          0.375       0.814817
+CH2_sp3        0  14.027000  0.00000000  A          0.395       0.382465
+CH_sp3         0  13.019000  0.00000000  A          0.468      0.0831445
+
+
+[ moleculetype ]
+; Name            nrexcl
+system1          3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr    charge       mass  typeB    chargeB      massB
+; residue    1 ETH rtp ETH q 0.0
+    1    CH3_sp3      1    ETH   _CH3      1 0.00000000  15.035000   ; qtot 0.000000
+    2    CH2_sp3      1    ETH   _CH2      2 0.00000000  14.027000   ; qtot 0.000000
+    3    CH2_sp3      1    ETH   _CH2      3 0.00000000  14.027000   ; qtot 0.000000
+; residue    2 iBU rtp iBU q 0.0
+    4    CH2_sp3      2    iBU   _CH2      4 0.00000000  14.027000   ; qtot 0.000000
+    5     CH_sp3      2    iBU    _CH      5 0.00000000  13.019000   ; qtot 0.000000
+    6    CH2_sp3      2    iBU   _CH2      6 0.00000000  14.027000   ; qtot 0.000000
+    7    CH3_sp3      2    iBU   _CH3      7 0.00000000  15.035000   ; qtot 0.000000
+    8    CH3_sp3      2    iBU   _CH3      8 0.00000000  15.035000   ; qtot 0.000000
+
+[ bonds ]
+;    ai     aj funct         c0         c1         c2         c3
+      1      2     1   0.15400 376560.000000
+      2      3     1   0.15400 376560.000000
+      3      4     1   0.15400 376560.000000
+      4      5     1   0.15400 376560.000000
+      5      6     1   0.15400 376560.000000
+      5      8     1   0.15400 376560.000000
+      6      7     1   0.15400 376560.000000
+
+[ angles ]
+;    ai     aj     ak funct         c0         c1         c2         c3
+      1      2      3     1   113.9996936 519.653890
+      2      3      4     1   113.9996936 519.653890
+      3      4      5     1   113.9996936 519.653890
+      4      5      6     1   112.0000709 519.653890
+      4      5      8     1   112.0000709 519.653890
+      5      6      7     1   113.9996936 519.653890
+      6      5      8     1   112.0000709 519.653890
+
+[ dihedrals ]
+; improper angles
+;  ai    aj    ak    al funct  c0  c1  c2  c3  c4  c5
+       5        4        8        6  2   -30.500 0.5178E+03
+;    ai     aj     ak     al funct         c0         c1         c2         c3         c4         c5
+      3      4      5      6     3     3.2862100     7.4421100     1.8599500   -14.6756900     0.0000000     0.0000000
+      3      4      5      8     3     3.2862100     7.4421100     1.8599500   -14.6756900     0.0000000     0.0000000
+      4      5      6      7     3     3.2862100     7.4421100     1.8599500   -14.6756900     0.0000000     0.0000000
+      7      6      5      8     3     3.2862100     7.4421100     1.8599500   -14.6756900     0.0000000     0.0000000
+;multiple propers (Toxwaerd torsion)
+     1      2      3      4 9   0.0  8.7375 0 ;
+     1      2      3      4 9 180.0 -2.4896 1 ;
+     1      2      3      4 9   0.0  0.7496 2 ;
+     1      2      3      4 9 180.0 -7.1311 3 ;
+     1      2      3      4 9   0.0  0.4396 4 ;
+     1      2      3      4 9 180.0 -0.5567 5 ;
+     1      2      3      4 9   0.0  0.2973 6 ;
+     1      2      3      4 9 180.0 -0.2254 7 ;
+     1      2      3      4 9   0.0  0.1829 8 ;
+     2      3      4      5 9   0.0  8.7375 0 ;
+     2      3      4      5 9 180.0 -2.4896 1 ;
+     2      3      4      5 9   0.0  0.7496 2 ;
+     2      3      4      5 9 180.0 -7.1311 3 ;
+     2      3      4      5 9   0.0  0.4396 4 ;
+     2      3      4      5 9 180.0 -0.5567 5 ;
+     2      3      4      5 9   0.0  0.2973 6 ;
+     2      3      4      5 9 180.0 -0.2254 7 ;
+     2      3      4      5 9   0.0  0.1829 8 ;
+
+[ system ]
+; Name
+Generic title
+
+[ molecules ]
+system1 1
