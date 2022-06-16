@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bafe1d8f-54f3-4be1-915d-82f49dd52bec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/01-TrappeUA-Toxvaerd_Mix/modelTrappKara_residues_noH_replicate_converted.lmp" beforeDir="false" afterPath="$PROJECT_DIR$/examples/01-TrappeUA-Toxvaerd_Mix/modelTrappKara_residues_noH_replicate_converted.lmp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/intermol/lammps/lammps_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/intermol/lammps/lammps_parser.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,6 +89,8 @@
       <workItem from="1655223997589" duration="32000" />
       <workItem from="1655225586201" duration="528000" />
       <workItem from="1655226131170" duration="35000" />
+      <workItem from="1655323138316" duration="1576000" />
+      <workItem from="1655370994870" duration="17000" />
     </task>
     <servers />
   </component>
@@ -103,49 +106,53 @@
       <screen x="0" y="27" width="1920" height="703" />
     </state>
     <state x="743" y="96" width="424" height="591" key="#com.intellij.ide.macro.MacrosDialog/0.27.1920.703/1920.0.1360.768@0.27.1920.703" timestamp="1655212122647" />
+    <state x="718" y="279" key="#xdebugger.evaluate" timestamp="1655324167265">
+      <screen x="0" y="27" width="1920" height="1015" />
+    </state>
+    <state x="718" y="279" key="#xdebugger.evaluate/0.27.1920.1015/1920.0.1360.768@0.27.1920.1015" timestamp="1655324167265" />
     <state x="743" y="146" width="424" height="491" key="FileChooserDialogImpl" timestamp="1655212056358">
       <screen x="0" y="27" width="1920" height="703" />
     </state>
     <state x="743" y="146" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.703/1920.0.1360.768@0.27.1920.703" timestamp="1655212056358" />
-    <state width="1874" height="319" key="GridCell.Tab.0.bottom" timestamp="1655219452674">
+    <state width="1874" height="263" key="GridCell.Tab.0.bottom" timestamp="1655324713633">
       <screen x="0" y="27" width="1920" height="1015" />
     </state>
-    <state width="1874" height="319" key="GridCell.Tab.0.bottom/0.27.1920.1015/1920.0.1360.768@0.27.1920.1015" timestamp="1655219452674" />
+    <state width="1874" height="263" key="GridCell.Tab.0.bottom/0.27.1920.1015/1920.0.1360.768@0.27.1920.1015" timestamp="1655324713633" />
     <state width="1874" height="319" key="GridCell.Tab.0.bottom/0.27.1920.703/1920.0.1360.768@0.27.1920.703" timestamp="1655213596302" />
-    <state width="1874" height="319" key="GridCell.Tab.0.center" timestamp="1655219452674">
+    <state width="1874" height="263" key="GridCell.Tab.0.center" timestamp="1655324713633">
       <screen x="0" y="27" width="1920" height="1015" />
     </state>
-    <state width="1874" height="319" key="GridCell.Tab.0.center/0.27.1920.1015/1920.0.1360.768@0.27.1920.1015" timestamp="1655219452674" />
+    <state width="1874" height="263" key="GridCell.Tab.0.center/0.27.1920.1015/1920.0.1360.768@0.27.1920.1015" timestamp="1655324713633" />
     <state width="1874" height="319" key="GridCell.Tab.0.center/0.27.1920.703/1920.0.1360.768@0.27.1920.703" timestamp="1655213596302" />
-    <state width="1874" height="319" key="GridCell.Tab.0.left" timestamp="1655219452674">
+    <state width="1874" height="263" key="GridCell.Tab.0.left" timestamp="1655324713633">
       <screen x="0" y="27" width="1920" height="1015" />
     </state>
-    <state width="1874" height="319" key="GridCell.Tab.0.left/0.27.1920.1015/1920.0.1360.768@0.27.1920.1015" timestamp="1655219452674" />
+    <state width="1874" height="263" key="GridCell.Tab.0.left/0.27.1920.1015/1920.0.1360.768@0.27.1920.1015" timestamp="1655324713633" />
     <state width="1874" height="319" key="GridCell.Tab.0.left/0.27.1920.703/1920.0.1360.768@0.27.1920.703" timestamp="1655213596302" />
-    <state width="1874" height="319" key="GridCell.Tab.0.right" timestamp="1655219452674">
+    <state width="1874" height="263" key="GridCell.Tab.0.right" timestamp="1655324713633">
       <screen x="0" y="27" width="1920" height="1015" />
     </state>
-    <state width="1874" height="319" key="GridCell.Tab.0.right/0.27.1920.1015/1920.0.1360.768@0.27.1920.1015" timestamp="1655219452674" />
+    <state width="1874" height="263" key="GridCell.Tab.0.right/0.27.1920.1015/1920.0.1360.768@0.27.1920.1015" timestamp="1655324713633" />
     <state width="1874" height="319" key="GridCell.Tab.0.right/0.27.1920.703/1920.0.1360.768@0.27.1920.703" timestamp="1655213596302" />
-    <state width="1874" height="319" key="GridCell.Tab.1.bottom" timestamp="1655219452674">
+    <state width="1874" height="319" key="GridCell.Tab.1.bottom" timestamp="1655324713631">
       <screen x="0" y="27" width="1920" height="1015" />
     </state>
-    <state width="1874" height="319" key="GridCell.Tab.1.bottom/0.27.1920.1015/1920.0.1360.768@0.27.1920.1015" timestamp="1655219452674" />
+    <state width="1874" height="319" key="GridCell.Tab.1.bottom/0.27.1920.1015/1920.0.1360.768@0.27.1920.1015" timestamp="1655324713631" />
     <state width="1874" height="319" key="GridCell.Tab.1.bottom/0.27.1920.703/1920.0.1360.768@0.27.1920.703" timestamp="1655213596303" />
-    <state width="1874" height="319" key="GridCell.Tab.1.center" timestamp="1655219452674">
+    <state width="1874" height="319" key="GridCell.Tab.1.center" timestamp="1655324713631">
       <screen x="0" y="27" width="1920" height="1015" />
     </state>
-    <state width="1874" height="319" key="GridCell.Tab.1.center/0.27.1920.1015/1920.0.1360.768@0.27.1920.1015" timestamp="1655219452674" />
+    <state width="1874" height="319" key="GridCell.Tab.1.center/0.27.1920.1015/1920.0.1360.768@0.27.1920.1015" timestamp="1655324713631" />
     <state width="1874" height="319" key="GridCell.Tab.1.center/0.27.1920.703/1920.0.1360.768@0.27.1920.703" timestamp="1655213596303" />
-    <state width="1874" height="319" key="GridCell.Tab.1.left" timestamp="1655219452674">
+    <state width="1874" height="319" key="GridCell.Tab.1.left" timestamp="1655324713631">
       <screen x="0" y="27" width="1920" height="1015" />
     </state>
-    <state width="1874" height="319" key="GridCell.Tab.1.left/0.27.1920.1015/1920.0.1360.768@0.27.1920.1015" timestamp="1655219452674" />
+    <state width="1874" height="319" key="GridCell.Tab.1.left/0.27.1920.1015/1920.0.1360.768@0.27.1920.1015" timestamp="1655324713631" />
     <state width="1874" height="319" key="GridCell.Tab.1.left/0.27.1920.703/1920.0.1360.768@0.27.1920.703" timestamp="1655213596302" />
-    <state width="1874" height="319" key="GridCell.Tab.1.right" timestamp="1655219452674">
+    <state width="1874" height="319" key="GridCell.Tab.1.right" timestamp="1655324713631">
       <screen x="0" y="27" width="1920" height="1015" />
     </state>
-    <state width="1874" height="319" key="GridCell.Tab.1.right/0.27.1920.1015/1920.0.1360.768@0.27.1920.1015" timestamp="1655219452674" />
+    <state width="1874" height="319" key="GridCell.Tab.1.right/0.27.1920.1015/1920.0.1360.768@0.27.1920.1015" timestamp="1655324713631" />
     <state width="1874" height="319" key="GridCell.Tab.1.right/0.27.1920.703/1920.0.1360.768@0.27.1920.703" timestamp="1655213596303" />
   </component>
   <component name="XDebuggerManager">
@@ -158,29 +165,26 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/intermol/lammps/lammps_parser.py</url>
-          <line>241</line>
-          <option name="timeStamp" value="3" />
+          <line>1008</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/intermol/lammps/lammps_parser.py</url>
-          <line>947</line>
-          <option name="timeStamp" value="4" />
+          <line>961</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="params" />
-        <watch expression="units" language="Python" />
-        <watch expression="conversion" language="Python" />
-        <watch expression="paramlist" />
-        <watch expression="u" />
-        <watch expression="params" />
+        <watch expression="p" language="Python" />
+        <watch expression="i" language="Python" />
+        <watch expression="line" />
       </configuration>
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/intermol_cJ$02_Example02.coverage" NAME="02-Example02 Coverage Results" MODIFIED="1655213596286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples/01-TrappeUA-Toxvaerd_Mix" />
+    <SUITE FILE_PATH="coverage/intermol_cJ$02_Example02.coverage" NAME="02-Example02 Coverage Results" MODIFIED="1655324397525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples/01-TrappeUA-Toxvaerd_Mix" />
     <SUITE FILE_PATH="coverage/intermol_cJ$01_convert_help.coverage" NAME="01-convert help Coverage Results" MODIFIED="1655212025620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intermol" />
   </component>
 </project>

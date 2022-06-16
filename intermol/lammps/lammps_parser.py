@@ -956,6 +956,13 @@ class LammpsParser(object):
                                 line += "%10d" % (p.value_in_unit(u[i]))
                             else:
                                 line += "%18.8e" % (p.value_in_unit(u[i]))
+                        # cJ Change the sign of the equilibrium angle in GROMACS
+                        # LAMMPS calcululates the dihedral with opposite sign
+                        elif force_name == "Improper" and style == "harmonic":
+                            if i != 1:
+                                line += "%18.8e" % (p.value_in_unit(u[i]))
+                            else:
+                                line += "%18.8e" % (-p.value_in_unit(u[i]))
                         else:
                             line += "%18.8e" % (p.value_in_unit(u[i]))
                     line += '\n'
